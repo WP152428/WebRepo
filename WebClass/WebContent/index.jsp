@@ -18,7 +18,7 @@
 
 %>
 <%--5. Expression tag (표현식) --%>
-<h1>Hello, <%name%></h1>
+<h1>Hello, <%=name%></h1>
 
 </body>
 </html>

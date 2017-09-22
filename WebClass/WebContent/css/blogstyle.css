@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+container {
+  padding-top: 30px;
+  
+  
+  
+  }
+  
+  .image{width:800px; height:400px; }
+  .signInclass{align="center"; style="padding-top:30px";}
+  
+  #image1{width: 100%; max-width : 100%; height: auto;}
+  img{wiwdth:300px; height:300px;}

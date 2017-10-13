@@ -13,7 +13,7 @@
 <div class="container">
 <% 
 	String id = request.getParameter("id") == null ? "" : request.getParameter("id");
-	String pwd = request.getParameter("pwd") == null ? "" : request.getParameter("pwd");
+	
 
 
 			%>
@@ -24,7 +24,7 @@
     <input type="email" name="id" value="<%= id%>" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
     
     <label for="inputPassword" class="sr-only">Password</label>
-    <input type="password" name="pwd" value="<%= pwd%>" id="inputPassword" class="form-control" placeholder="Password" required>
+    <input type="password" name="pwd"  id="inputPassword" class="form-control" placeholder="Password" required>
 
     <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
   </form>

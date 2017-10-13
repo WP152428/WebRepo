@@ -55,7 +55,7 @@ public class BlogLoginServlet extends HttpServlet {
 			
 			UserVO user = new UserVO();
 			user.setId(id);
-			user.setName("test@naver.com");
+			user.setName("홍길동");
 			user.setNickname("ggoyang");
 			session.setAttribute("user", user);
 			RequestDispatcher rd = request.getRequestDispatcher("jsp/blog.jsp");
